@@ -6,8 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="css/style.css"> 
+    <title> Portafolio </title>
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/portafolio.css"
+
 
 </head>
 <body>  
@@ -21,43 +27,33 @@
 
             <ul class="menu">
                 <li><a class="active" href="#"> Inicio </a></li>
-                <li><a href="#"> Acerca de </a></li>
-                <li><a href="#"> Habilidades </a></li>
-                <li><a href="#"> Experiencias laborales </a></li>
-                <li><a href="#"> Proyectos personales </a></li>
+                <li><a href="#aboutme"> Acerca de </a></li>
+                <li><a href="#ability"> Habilidades </a></li>
+                <li><a href="#portfolio">  Mi portafolio </a></li>
+                <li><a href="#contact"> Contactame </a></li>
             </ul>
         </nav>
-
     </header>
 
     <main class="main">
         <div class="info-content">
-    
             <h1> I'm <span>Diana</span> Campos</h1>
-    
             <p>
                 Soy Diana Campos, tengo 32 años. Actualmente me encuentro estudiando en el bootcamp de Kodigo: Web Developer FrontEnd. 
                 Me encanta el diseño y el área de desarrollo. Tengo Experiencia en el area de atención al cliente y diseño publicitario.
             </p>
-
             <a download href="rsc/Diana Campos .pdf">
-                <button class="download-cv">Download CV</button>
+                <button class="download-cv">Descargar CV</button>
             </a>
-    
         </div>
-
-        <img src="./img/mifoto.png" alt=" Diana Campos picture">
+        <img  class="mypic" src="./img/mifoto.png" alt=" Diana Campos picture">
     </main>
 
 </div>
 
-
-
-    
-
-
+<section id="aboutme">
 <div class="about-info">
-    <h2> About me</h2>
+    <h2> Acerca de mi</h2>
     <div class="divider"></div>
     <p></p>
     <p> Soy un Desarrollador mediante un bootcamp el cual me ha permitido desarrollar habilidades, tanto en JavaScrip como en React. 
@@ -67,10 +63,43 @@
     </p>
 
         <a href="https://www.linkedin.com/in/diana-camposr/">
-    <button class="download-cv"> Read more</button>
+    <button class="download-cv"> leer más </button>
     </a>
 </div>
+</section>
 
+<section id="ability">
+<div class="about-ability">
+    <h2 class="tituloa"> Habilidades técnicas </h2>
+    <div class="divider"></div>
+    <p></p>
+
+    
+<div class="cardab" style="width: -20rem;">
+<img src="/img/html.png" class="card-img-top" alt="HTML5">
+    <div class="card-body">
+        <p class="card-text" id="cardtext">Experiencia en HTML5 </p>
+    </div>
+</div>
+
+<div class="cardab" style="width: -20rem;">
+    <img src="/img/css.png" class="card-img-top" alt="HTML5">
+    <div class="card-body">
+        <p class="card-text" id="cardtext"> CSS3 </p>
+    </div>
+</div>
+
+<div class="cardab" style="width: -20rem;">
+    <img src="/img/bootstrap.png" class="card-img-top" alt="HTML5">
+    <div class="card-body">
+        <p class="card-text" id="cardtext"> Bootstrap5 </p>
+    </div>
+</div>
+
+</div>
+</section>
+
+<section id="portfolio">
 <div class="portfolio">
     <div class="portfolio-heading">
         <h2>Mi Portafolio</h2>
@@ -82,82 +111,58 @@
             <div class="card__img">
             </div>
             <div class="card__title">
-                <h2>Project Description</h2>
+                <h2>Galeria de imagnes básico en HTML</h2>
             </div>
             <div class="card__proyect-links">
-                <a href="">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="">
-                    <i class="fas fa-globe-asia"></i>
-                </a>
-                <a href="https://drive.google.com/drive/folders/1mgu7iG8Dwfbn9kiq0y8qwIYeIE51my84?usp=sharing">
-                    <i class="fas fa-code"></i>
-                </a>
             </div>
             <div class="button-content">
                 <button class="project-details-button download-cv">
-                    <a href="https://drive.google.com/drive/folders/1mgu7iG8Dwfbn9kiq0y8qwIYeIE51my84?usp=sharing">Project Details</a>
+                    <a href="https://github.com/camposrdi/homework1-kodigo.git"> Detalles de proyecto</a>
                 </button>
             </div>
         </div>
-        <div class="card">
-            <div class="card__img">
-            </div>
-            <div class="card__title">
-                <h2>Project Description</h2>
-            </div>
-            <div class="card__proyect-links">
-                <a href="#">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="">
-                    <i class="fas fa-globe-asia"></i>
-                </a>
-                <a href="">
-                    <i class="fas fa-code"></i>
-                </a>
-            </div>
-            <div class="button-content">
-                <button class="project-details-button download-cv">
-                    <a href="#">Project Details</a>
-                </button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card__img">
-            </div>
-            <div class="card__title">
-                <h2>Project Description</h2>
-            </div>
-            <div class="card__proyect-links">
-                <a href="#">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="">
-                    <i class="fas fa-globe-asia"></i>
-                </a>
-                <a href="">
-                    <i class="fas fa-code"></i>
-                </a>
-            </div>
-            <div class="button-content">
-                <button class="project-details-button download-cv">
-                    <a href="#">Project Details</a>
-                </button>
-            </div>
-        </div>
-    </div>
-    </div>
 
+        <div class="card">
+            <div class="card__img">
+            </div>
+            <div class="card__title">
+                <h2>Maquetación mediante HTML y CSS los componentes de un formulario para el registro de
+                productos.</h2>
+            </div>
+            <div class="card__proyect-links">
+            </div>
+            <div class="button-content">
+                <button class="project-details-button download-cv">
+                    <a href="https://github.com/camposrdi/homework2-kodigo.git">Detalle de proyecto</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__img">
+            </div>
+            <div class="card__title">
+                <h2>Elaborar un portafolio profesional mediante HTML, CSS y Bootstrap</h2>
+            </div>
+            <div class="card__proyect-links">
+            </div>
+            <div class="button-content">
+                <button class="project-details-button download-cv">
+                    <a href="#">Detalle de proyecto</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
         
+<section id="contact">
         <div class="contact-section">
             <div class="contact-heading">
-                <h2>Keep in touch</h2>
+                <h2>Sigamos en contacto</h2>
                 <div class="divider"></div>
             </div>
             <div class="container-contact">
-
 
                 <div class="contact-form">
                     <h4>Send me a message...</h4>
@@ -170,12 +175,16 @@
                 </div>
             </div>
         </div>
+</section>
         
-        <footer class="footer">
-            <div class="footer-content">
-                <h2>Diana Campos</h2>
-                <h5>Frontend Developer</h5>
-            </div>
+        <footer>
+            <p class="copy">&copy; Copyright 2022</p>
+            <p class="copy">
+                Built with &#x2661; by
+                <a href="www.linkedin.com/in/diana-camposr" target="_blank"> Diana Campos </a>
+            </p>
+        </footer>
+
             <div class="sotial-networks">
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-linkedin"></i>
