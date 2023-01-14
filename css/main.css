@@ -1,0 +1,40 @@
+.main {
+
+    margin: 0 auto;
+    width: 40vw;
+    height: 40vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+h1 {
+
+    font-size: 3em;
+}
+.mypic{
+    width: 140%;
+    height: 80%;
+}
+span {
+    color: #FF007F
+}
+
+.download-cv {
+
+    padding: 10px 20px;
+    background-color: #FF007F;
+    color:aliceblue;
+    font-size:15px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 6px 3px 11px -5px rgba(255, 0, 127, 330)   
+}
+.download-cv:hover {
+    background-color: #fff;
+    color:#FF007F;
+    box-shadow: none;
+}
+
+

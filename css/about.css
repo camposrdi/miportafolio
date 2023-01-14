@@ -1,0 +1,54 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+
+}
+
+.about-info {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.about-info h2 {
+
+    font-size: 2em;
+    color: #191c32;
+}
+.about p {
+    margin-bottom: 1em;
+}
+
+.about-ability {
+    grid-column: 5/10;
+    padding: 3em;
+    background-color: #191c32;
+}
+.cardab{
+    width: 300px;
+    margin: -2em;
+    display: inline-block;
+    padding: 25px;
+    position: relative;
+    left: 400px;
+
+}
+.card-img-top{
+    width: 50%;
+    height: 50%;
+    box-shadow: 2px 2px 3px #FF007F;
+}
+.tituloa, .card-text{
+    color:white;
+}
+.card-text{
+    
+    text-align: center;
+    background-color: #FF007F;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    display:flex;
+    
+}

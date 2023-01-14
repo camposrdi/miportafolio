@@ -1,0 +1,31 @@
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    box-shadow: 2px 2px 2px #FF007F ;
+}
+.brand span {
+    color: #FF007F;
+}
+.menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu .active {
+    color: #FF007F;
+}
+.menu a:hover {
+    background-color: #FF007F;
+    border-radius: 25px;
+    color: #191c32;
+    transition: ease-in 0.5s;
+}

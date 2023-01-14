@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: verdana;
+}
+
+.wrapper {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff;
+
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: #FF007F;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
