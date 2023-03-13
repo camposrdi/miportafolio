@@ -20,6 +20,8 @@
     margin-bottom: 1em;
 }
 
+
+
 .about-ability {
     grid-column: 5/10;
     padding: 3em;
@@ -28,16 +30,17 @@
 .cardab{
     width: 300px;
     margin: -2em;
-    display: inline-block;
+    display:inline-block;
     padding: 25px;
     position: relative;
-    left: 400px;
+   
 
 }
 .card-img-top{
     width: 50%;
     height: 50%;
     box-shadow: 2px 2px 3px #FF007F;
+    
 }
 .tituloa, .card-text{
     color:white;
