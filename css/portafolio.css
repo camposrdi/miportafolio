@@ -34,7 +34,7 @@ color: #191c32;
 .card__img {
     width: 100%;
     height: 150px;
-    background-image: url(/img/github1.png);
+    background-image: url(../img/github1.png);
     background-size: cover;
 }
 
