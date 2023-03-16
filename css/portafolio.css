@@ -17,20 +17,44 @@ color: #191c32;
 }
 .portfolio .container {
     width: 80vw;
-    height: 100vh;
     padding: 5em 0.5em 10em 0em;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+@media (min-width: 768px) {
+    .portfolio .container {
+        height: 100vh;
+    }
 }
 
 .card {
-    width: 500px;
-    height: 600px;
+    width: 90%;
+    height: 500px;
     background-color: #191c32;
     margin: 1em;
     color:aliceblue;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 45%;
+        height: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 30%;
+    }
 }
 
 .card__img {
