@@ -1,5 +1,5 @@
 .portfolio{
-width: 100vw;
+width: 100%;
 color: #191c32;
     
 }
@@ -14,11 +14,12 @@ color: #191c32;
 .portfolio-heading h2{
     font-size: 2.5em;
     color: #191c32;
+    
 }
 .portfolio .container {
-    width: 80vw;
-    padding: 5em 0.5em 10em 0em;
-    margin: 0 auto;
+    width: 105%;
+    padding: 5em 0.5em 75em 0em;
+    margin: -100px;
     display: flex;
     flex-wrap: wrap;
         justify-content: center;
@@ -33,39 +34,25 @@ color: #191c32;
 }
 
 .card {
-    width: 90%;
-    height: 500px;
+    width: 290px;
+     height: 500px;
     background-color: #191c32;
+    color: aliceblue;
     margin: 1em;
-    color:aliceblue;
+    padding: 5px;
     display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-}
-
-@media (min-width: 768px) {
-    .card {
-        width: 45%;
-        height: 600px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .card {
-        width: 30%;
-    }
+    flex-wrap: wrap;
 }
 
 .card__img {
-    width: 100%;
+    width: 90%;
     height: 150px;
     background-image: url(../img/github1.png);
     background-size: cover;
 }
 
 .card__title {
-    padding: 15px;
+    padding: 5px;
 }
 
 .card__proyect-links {
@@ -74,7 +61,7 @@ color: #191c32;
 }
 
 .card__proyect-links a {
-    color: #fff;
+    
     text-decoration: none;
 }
 
@@ -93,74 +80,10 @@ color: #191c32;
     color: #fff;
 }
 
-.contact-section {
-    background-color: #191c32;
-    padding: 3em;
-    color: aliceblue;
-}
-
-.container-contact {
-    margin: 0 auto;
-    margin-top: 10em;
-}
 
 
-
-.contact-section img {
-    width: 750px;
-    height: 700px;
-    bottom: 0px;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
-    margin-top: 2em;
-}
-
-.form-group textarea {
-    height: 150px;
-    padding: 1.5em;
-    background: none;
-    border: 1px solid #fff;
-    color: #fff;
-}
-
-.form-group .input {
-    padding: 10px 20px;
-    margin-bottom: 1em;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: #fff;
-}
-
-.form-group .btn-submit {
-    padding: 10px 20px;
-    margin: 1em;
-    border-radius: 20px;
-    border: none;
-    text-transform: uppercase;
-    background-color: #fff;
-}
-
-
-
-footer {
-    background-color: var(--bg-color);
-    padding: 1rem;
-    text-align: center;
-    margin: 1rem 0 0;
-}
-
-.sotial-networks {
-    display: flex;
-    justify-content: space-evenly;
-    width: 300px;
-    margin-top: 1em;
-}
-
-.sotial-networks i {
-    font-size: 1.5em;
+.project-details-button a:hover {
+     
+            color: #191c32;
+            box-shadow: none;
 }
