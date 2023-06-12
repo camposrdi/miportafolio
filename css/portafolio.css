@@ -17,8 +17,8 @@ color: #191c32;
     
 }
 .portfolio .container {
-    width: 105%;
-    padding: 5em 0.5em 75em 0em;
+    width: 85%;
+    padding: 5em 0.5em 7em 0em;
     margin: -100px;
     display: flex;
     flex-wrap: wrap;
@@ -35,10 +35,10 @@ color: #191c32;
 
 .card {
     width: 290px;
-     height: 500px;
+    height: 500px;
     background-color: #191c32;
     color: aliceblue;
-    margin: 1em;
+    margin: .5em;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
